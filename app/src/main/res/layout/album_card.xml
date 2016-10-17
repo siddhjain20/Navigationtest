@@ -15,7 +15,6 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="2dp"
         android:elevation="3dp"
-        android:background="@drawable/drop_input"
         card_view:cardCornerRadius="@dimen/card_album_radius">
 
         <RelativeLayout
@@ -58,8 +57,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_below="@id/thumbnail"
                 android:layout_marginTop="@dimen/ic_album_overflow_margin_top"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_dots" />
+                android:scaleType="centerCrop" />
 
         </RelativeLayout>
 
